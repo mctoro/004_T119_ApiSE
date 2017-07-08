@@ -28,8 +28,8 @@ int e = d-c;
 int f = c-d;
 */
 
-        System.out.println(a);
-        System.out.println(b); 
+        System.out.println("El primer numero es: " + a);
+        System.out.println("El segundo numero es: " + b); 
         if (a==c) {
            diferencia = b-a; 
            
@@ -40,13 +40,13 @@ int f = c-d;
         
         for (int i = (c+1); i <= d; i++) {
             c=c+i;
-        } System.out.println(c);
+        } System.out.println("La suma es: " + c);
     }
     
     
     
     public static int aleatorioEnRango(int m, int n) {
-     int resultado = 0;
+     int resultado;
      
      resultado = (int) Math.floor(Math.random()*(m-n+1)+n);
      
